@@ -3,6 +3,7 @@ window.rewardMoney={
 	teacherFemaleClothing: 15,
 	teacherButtplug: 5,
 	teacherChastity: 10,
+	teacherBra: 10,
 	teacherAssistant: 15,
 	teacherBullySex: 20,
 	teacherPiss: 60,
@@ -883,7 +884,8 @@ window.playerAddonsList={
 		vibratorFirst: 0, /* "guardian", "photoGirl", "coach", "badBoyfriend" */
 		analFirst: 0, /* "guardian", "photoGirl", "coach", "badBoyfriend" */
 		analSkill: 0,
-		schoolSlut: 0
+		schoolSlut: 0,
+		penisFirst: 0, /* "slave girls", "guardian", "femFriend", "cheerCaptain", "cheerBitch", "photoGirl" */
 	},
 	masturbate: {
 		lastDay: 0,
@@ -912,7 +914,8 @@ window.playerAddonsList={
 		vibratorFirst: 0, /* "guardian", "therapist", "shop" */
 		vibratorExp: 0,
 		analFirst: 0, /* "guardian", "photoGirl", "coach", "badBoyfriend" */
-		analExp: 0
+		analExp: 0,
+		penisFirst: 0,
 	},
 },
 
@@ -933,11 +936,12 @@ window.friendList={
 	admitWhatsWrong: 0,
 	admitLikingTrap: 0,
 	leave_message: '',	/* Printed in end of Hang Out or early in Leav friend's house */
+	
 	visit: {
-		r2: 0,
-		c3: 0,
-	},
-	seenPanties: [],
+        r2: 0,
+        c3: 0,
+    },
+    seenPanties: [],
 },
 
 window.futaList={
@@ -1289,6 +1293,12 @@ window.flagsList={
 	volleyFirst: true, //first time visiting the volleyball team
 	firstTimeTAAnime: true, //first time meeting the TA in the anime club
 	failedPrincipal: false, //did not work for principal in teacher task
+	endSchoolSlut: 0,
+	nancyChastTalk: false,
+	slutGoodEnd: 0,
+	slutBadEnd: 0,
+	teacherSawPanties: false,
+	friendBraTask: false,
 },
 
 window.kinkList={
